@@ -1,39 +1,51 @@
 /* Write your CSS here! */
+body{
+    background-color: blue;
+}
 h1 {
     color:whitesmoke;
     text-align: center;
 }
 
 h2 {
-    color:wheat;
-    text-align: left;
+    color:wheat; 
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+
 }
 
 h3 {
     color:wheat;
     text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center
 }
 
 h4 {
 
-    color:whitesmoke;
-
-    text-align: center;
+    color:rgb(245, 245, 245);
+    font-size: 20px;
+    font-style: italic;
+    text-align: center
 }
 
 h6 {
 
     color:whitesmoke;
-
     text-align: center;
 }
 
 p {
-    color: whitesmoke
+    color: whitesmoke;
+    font-size: 17px;
+    text-align: center;
+   
 }
 
 body {
-    border-left: 10px solid rgb(202, 117, 6); 
+    border-block-end-style: 10px solid rgb(202, 117, 6); 
     background-color:rgba(62, 108, 151, 0.932); 
     background-image:url(images/bg1.jpg);
 }
@@ -45,3 +57,19 @@ body {
     width: 30%;
   }
 
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 88%;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;     
+}
